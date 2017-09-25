@@ -1,9 +1,20 @@
+
 header{
     padding: 1.875em 0;
 }
 header, main, footer{
     background-color: #ddd;
     font-size: 1.6em;
+}
+
+div.locations{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#myHeader{
+    text-align: center;
+    color: green;
 }
 h2, p {
     padding: 1em;
@@ -13,6 +24,7 @@ article, figcaption, figure, footer, header, main, nav, section{
     display: block;
 }
 body{
+    padding: 25px;
     margin: 0;
     font-size: 80.5%;
     background-color: purple;
